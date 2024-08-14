@@ -14,10 +14,9 @@ find_package(geometry_msgs REQUIRED)
 
 # Set message files
 set(msg_files
+  "msg/ArucoMarker.msg"
   "msg/ImageMarkers.msg"
-  "msg/Marker.msg"
   "msg/Point2D.msg"
-  "msg/StereoImageMarkers.msg"
 )
 
 # Generate message interfaces
