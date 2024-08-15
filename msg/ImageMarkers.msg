@@ -1,3 +1,5 @@
 std_msgs/Header header
-int32 cam_idx
-ArucoMarker[] aruco_markers
+std_msgs/String cam_name
+ArucoMarker[] aruco_markers_0
+ArucoMarker[] aruco_markers_1
+ArucoMarker[] aruco_markers_2
